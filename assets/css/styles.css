@@ -540,6 +540,7 @@ input:focus, textarea:focus{
   .split{ grid-template-columns: 1fr; }
   /* .image-card img keeps natural ratio on mobile */
   .contact{ grid-template-columns: 1fr; }
+  .hero-content{ align-items: flex-end; padding-block: 140px 16px; }
 }
 
 @media (max-width: 860px){
