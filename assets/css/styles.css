@@ -163,7 +163,7 @@ img{ max-width: 100%; height: auto; display: block; }
   inset:0;
   background:
     linear-gradient(90deg, rgba(0,0,0,.22) 0%, rgba(0,0,0,.10) 42%, rgba(0,0,0,0) 75%),
-    url("../images/hero.jpg") center/cover no-repeat;
+    url("../images/P%C3%A4%C3%A4kuva.webp") center/cover no-repeat;
   transform: translateZ(0);
 }
 .hero-fade{
