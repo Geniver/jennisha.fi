@@ -1,3 +1,27 @@
+@font-face{
+  font-family: "Ogg";
+  src: url("../fonts/Ogg Ogg Bold/Ogg Ogg Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face{
+  font-family: "Figtree";
+  src: url("../fonts/Figtree/Figtree-VariableFont_wght.ttf") format("truetype");
+  font-weight: 300 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face{
+  font-family: "Figtree";
+  src: url("../fonts/Figtree/Figtree-Italic-VariableFont_wght.ttf") format("truetype");
+  font-weight: 300 900;
+  font-style: italic;
+  font-display: swap;
+}
+
 :root{
   --bg: #fff;
   --ink: #1f1f23;
@@ -16,8 +40,8 @@
 
   --container: 1100px;
 
-  --serif: "Playfair Display", ui-serif, Georgia, serif;
-  --sans: "Inter", ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+  --serif: "Ogg", "Playfair Display", ui-serif, Georgia, serif;
+  --sans: "Figtree", ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
 
   --focus: 0 0 0 4px rgba(176,70,85,.22);
 }
