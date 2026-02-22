@@ -27,7 +27,7 @@
   --ink: #1f1f23;
   --muted: #5f5f6b;
 
-  --tint: #f4dfe4;           /* vaaleanpunainen tausta */
+  --tint: #f5e2e6;           /* vaaleanpunainen tausta */
   --accent: #b04655;         /* viininpunainen otsikoille/napeille */
   --accent-2: #8f3341;
 
@@ -81,7 +81,7 @@ img{ max-width: 100%; height: auto; display: block; }
   position: sticky;
   top:0;
   z-index: 50;
-  background: rgba(241,211,216,.88);
+  background: #f5e2e6;
   backdrop-filter: blur(10px);
   border-bottom: 1px solid rgba(0,0,0,.06);
 }
@@ -301,7 +301,7 @@ p{ margin: 0 0 12px 0; }
   margin: 18px 0 0 0;
   padding: 14px 16px;
   border-left: 4px solid rgba(176,70,85,.55);
-  background: rgba(176,70,85,.06);
+  background: #f5e2e6;
   border-radius: 14px;
   font-style: italic;
   color: rgba(31,31,35,.78);
@@ -335,7 +335,7 @@ p{ margin: 0 0 12px 0; }
   border-radius: 14px;
   display:grid;
   place-items:center;
-  background: rgba(176,70,85,.08);
+  background: #f5e2e6;
   border: 1px solid rgba(176,70,85,.14);
   margin-bottom: 10px;
   font-size: 1.2rem;
