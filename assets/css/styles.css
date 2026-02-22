@@ -262,8 +262,8 @@ p{ margin: 0 0 12px 0; }
 .image-card img{
   width: 100%;
   height: auto;
-  aspect-ratio: 4 / 5;
-  object-fit: cover;
+  object-fit: contain;
+  background: #fff;
 }
 
 .content blockquote{
@@ -333,8 +333,9 @@ p{ margin: 0 0 12px 0; }
 }
 .break img{
   width: 100%;
-  height: clamp(220px, 30vw, 420px);
-  object-fit: cover;
+  height: auto;
+  max-height: 520px;
+  object-fit: contain;
   display:block;
   filter: saturate(1.02) contrast(1.02);
 }
@@ -475,7 +476,7 @@ input:focus, textarea:focus{
 @media (max-width: 980px){
   .cards{ grid-template-columns: 1fr; }
   .split{ grid-template-columns: 1fr; }
-  .image-card img{ aspect-ratio: 16 / 10; }
+  /* .image-card img keeps natural ratio on mobile */
   .contact{ grid-template-columns: 1fr; }
 }
 
