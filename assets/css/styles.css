@@ -27,7 +27,7 @@
   --ink: #1f1f23;
   --muted: #5f5f6b;
 
-  --tint: #f1d3d8;           /* vaaleanpunainen tausta */
+  --tint: #f4dfe4;           /* vaaleanpunainen tausta */
   --accent: #b04655;         /* viininpunainen otsikoille/napeille */
   --accent-2: #8f3341;
 
@@ -442,7 +442,7 @@ p{ margin: 0 0 12px 0; }
 .social-link:hover{ text-decoration: underline; }
 
 .form{
-  background: rgba(255,255,255,.65);
+  background: var(--tint);
   border: 1px solid rgba(0,0,0,.06);
   border-radius: var(--radius-lg);
   padding: 18px;
