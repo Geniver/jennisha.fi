@@ -214,7 +214,7 @@ img{ max-width: 100%; height: auto; display: block; }
 }
 .hero-card h1{
   font-family: var(--serif);
-  font-weight: 600;
+  font-weight: 700;
   margin: 0 0 6px 0;
   font-size: clamp(2.1rem, 4vw, 3.2rem);
   letter-spacing: .01em;
@@ -249,7 +249,7 @@ img{ max-width: 100%; height: auto; display: block; }
 
 h2{
   font-family: var(--serif);
-  font-weight: 600;
+  font-weight: 700;
   font-size: clamp(1.9rem, 3.2vw, 2.6rem);
   color: var(--accent-2);
   letter-spacing:.01em;
@@ -258,7 +258,7 @@ h2{
 h3{
   margin: 0 0 10px 0;
   font-family: var(--serif);
-  font-weight: 600;
+  font-weight: 700;
   font-size: 1.35rem;
   letter-spacing:.01em;
 }
