@@ -367,9 +367,13 @@
         </div>
 
         <div class="contact-right">
-          <!-- Lähetys: suositus Formspree / Netlify Forms / vastaava -->
-          <!-- Esim Formspree: action="https://formspree.io/f/XXXXXX" -->
-          <form class="form" method="post" action="#" onsubmit="return false;">
+          <!-- Formspree: käytetään omaa endpointtia -->
+          <form class="form" method="POST" action="https://formspree.io/f/mwvnrjzy">
+            <!-- Honeypot (spämmiä vastaan). Botit täyttää tämän, ihmiset eivät. -->
+            <input type="text" name="_gotcha" class="hp" tabindex="-1" autocomplete="off" aria-hidden="true" />
+
+            <!-- Aihe sähköpostiin -->
+            <input type="hidden" name="_subject" value="Uusi yhteydenotto – jennisha.fi" />
             <div class="grid-2">
               <label>
                 <span>Etunimi</span>
@@ -393,7 +397,7 @@
 
             <button class="btn btn-wide" type="submit">Lähetä</button>
             <p class="small muted">
-              Lomake on tällä hetkellä “demo”-tilassa (ei lähetä). Lisää myöhemmin Formspree/Netlify Forms, niin tämä toimii heti.
+              Lähettämällä hyväksyt, että viesti välitetään sähköpostiin Formspreellä.
             </p>
           </form>
         </div>
