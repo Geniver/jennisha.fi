@@ -238,6 +238,9 @@ img{ max-width: 100%; height: auto; display: block; }
 .section-tinted{
   background: var(--tint);
 }
+#tunnit{
+  background: #c9d7e2;
+}
 .section-head{
   text-align:center;
   max-width: 780px;
@@ -266,6 +269,13 @@ h3{
   font-family: var(--serif);
   font-weight: 700;
   font-size: 1.35rem;
+  letter-spacing:.01em;
+}
+h4{
+  margin: 0 0 10px 0;
+  font-family: var(--serif);
+  font-weight: 700;
+  font-size: 1.15rem;
   letter-spacing:.01em;
 }
 p{ margin: 0 0 12px 0; }
@@ -401,9 +411,7 @@ p{ margin: 0 0 12px 0; }
 }
 .timeline.compact{ margin-top: 16px; }
 .row{
-  display:grid;
-  grid-template-columns: 120px 1fr;
-  gap: 16px;
+  display:block;
   padding: 14px 14px;
   border-radius: var(--radius-lg);
   border: 1px solid var(--border);
@@ -412,11 +420,18 @@ p{ margin: 0 0 12px 0; }
 .row.subtle{
   background: rgba(255,255,255,.35);
 }
+.item-head{
+  display:flex;
+  align-items: baseline;
+  gap: 12px;
+  margin-bottom: 6px;
+}
 .year{
   font-weight: 700;
   color: rgba(31,31,35,.72);
+  min-width: 92px;
 }
-.item h3{ margin-bottom: 6px; }
+.item h4{ margin: 0; }
 .item p{ margin: 0; color: rgba(31,31,35,.78); }
 
 /* Contact */
@@ -541,6 +556,8 @@ input:focus, textarea:focus{
   /* .image-card img keeps natural ratio on mobile */
   .contact{ grid-template-columns: 1fr; }
   .hero-content{ align-items: flex-end; padding-block: 140px 16px; }
+  .item-head{ flex-direction: column; gap: 4px; align-items: flex-start; }
+  .year{ min-width: 0; }
 }
 
 @media (max-width: 860px){
