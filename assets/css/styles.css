@@ -542,7 +542,7 @@ input:focus, textarea:focus{
   .split{ grid-template-columns: 1fr; }
   /* .image-card img keeps natural ratio on mobile */
   .contact{ grid-template-columns: 1fr; }
-  .hero-content{ align-items: flex-end; padding-block: 120px 16px; }
+  .hero-content{ align-items: flex-start; padding-block: 120px 16px; }
   .hero-card{ max-width: 80%; }
   .item-head{ flex-direction: column; gap: 4px; align-items: flex-start; }
   .year{ min-width: 0; }
