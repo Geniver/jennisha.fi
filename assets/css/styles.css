@@ -247,6 +247,12 @@ img{ max-width: 100%; height: auto; display: block; }
   margin:0;
 }
 
+#joogapolku .section-head{
+  text-align: left;
+  max-width: none;
+  margin: 0 0 26px 0;
+}
+
 h2{
   font-family: var(--serif);
   font-weight: 700;
